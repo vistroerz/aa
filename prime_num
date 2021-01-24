@@ -1,3 +1,5 @@
+# prime numbers task
+
 a = int(input("enter a number:"))
 if a > 1:
   for i in range(2, a//2):
