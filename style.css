@@ -1,0 +1,36 @@
+head {
+    background-color:black;
+}
+
+body{
+    background-color:black;
+}
+
+table{
+    border: 1px solid gray;
+    border-collapse: collapse; /*to make borders collapsed you have to use this css rule*/
+}
+h1, {
+    font-family: "lobster", cursive;
+    text-align: center;
+}
+
+h2 {
+    font-family: "lobster", cursive;
+    text-align: left; 
+}
+
+h3{
+    text-align: center;
+}
+
+#image {
+    style="position:absolute";
+}
+td{
+    border: 1px solid gray;
+    
+}
+#img-div{
+    style="position:absolute";
+}
