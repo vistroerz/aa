@@ -1,0 +1,10 @@
+def letter_count(sent):
+    dict = {}
+    for n in sent:
+        keys = dict.keys()
+        if n in keys:
+            dict[n] += 1
+        else:
+            dict[n] = 1
+    return dict
+print(letter_count(input(str("enter the sentences"))))
